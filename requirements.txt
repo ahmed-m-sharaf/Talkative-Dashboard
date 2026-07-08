@@ -1,0 +1,10 @@
+sqlalchemy>=2.0
+faker
+streamlit
+pandas
+pydantic
+python-dotenv
+openai
+instructor
+fastapi
+uvicorn

@@ -1,0 +1,3756 @@
+[
+    {
+        "prompt": "tell me query number 28 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "what is the average age of Data Scientist applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Scientist"
+        }
+    },
+    {
+        "prompt": "average age of Product Manager in Tanta",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Tanta"
+        }
+    },
+    {
+        "prompt": "what is the average age of UI Designer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "UI Designer"
+        }
+    },
+    {
+        "prompt": "salary expectations for Backend Engineer in Alexandria",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "average age of Software Engineer in Tanta",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Tanta"
+        }
+    },
+    {
+        "prompt": "recruitment assistant",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "average age of Backend Engineer in Assiut",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "city": "Assiut"
+        }
+    },
+    {
+        "prompt": "top skills of Frontend Engineer candidates in Alexandria",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "how many Pending applications for Software Engineer from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Software Engineer",
+            "status": "Pending",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "what is the average age of QA Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer"
+        }
+    },
+    {
+        "prompt": "what is the average age of UI Designer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "UI Designer"
+        }
+    },
+    {
+        "prompt": "how to write a binary search in rust",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "what is the distance to the moon?",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "top skills of Backend Engineer candidates in Giza",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "top skills of Backend Engineer candidates in Cairo",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from LinkedIn in Giza?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "LinkedIn",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "average age of Backend Engineer in Mansoura",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "average age of Backend Engineer in Tanta",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "city": "Tanta"
+        }
+    },
+    {
+        "prompt": "what is the average age of Backend Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Backend Engineer"
+        }
+    },
+    {
+        "prompt": "average salary expectation?",
+        "expected_intent": "salary_expectation",
+        "expected_params": {},
+        "is_missing_params": true
+    },
+    {
+        "prompt": "good evening",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "what is the average age of QA Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer"
+        }
+    },
+    {
+        "prompt": "average age of AI Engineer in Alexandria",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Referral in Mansoura?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Referral",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "top skills of Product Manager candidates in Cairo",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "top skills of UI Designer candidates in Giza",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "average age of DevOps Engineer in Cairo",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "salary expectations for Data Analyst in Mansoura",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "login",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "average age of Product Manager in Mansoura",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "skills for applicants in Alexandria",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "city": "Alexandria"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "just greeting 4",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "salary expectations for Data Analyst in Alexandria",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "top skills of UI Designer candidates in Cairo",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Referral in Alexandria?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Referral",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "tell me query number 13 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "how many Rejected applications for Backend Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "status": "Rejected",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "what is the average age?",
+        "expected_intent": "average_age",
+        "expected_params": {},
+        "is_missing_params": true
+    },
+    {
+        "prompt": "what is the average age of Data Scientist applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Scientist"
+        }
+    },
+    {
+        "prompt": "just greeting 26",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "skills for applicants in Mansoura",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "city": "Mansoura"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "what are the key skills in Assiut?",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "city": "Assiut"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "average age of Data Analyst in Mansoura",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "average salary expectation?",
+        "expected_intent": "salary_expectation",
+        "expected_params": {},
+        "is_missing_params": true
+    },
+    {
+        "prompt": "what is the average age of DevOps Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "DevOps Engineer"
+        }
+    },
+    {
+        "prompt": "average age of AI Engineer in Giza",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "top skills of Data Scientist candidates in Mansoura",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "how many Accepted applications for Frontend Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "status": "Accepted",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "average age of Backend Engineer in Cairo",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "average age of QA Engineer in Assiut",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Assiut"
+        }
+    },
+    {
+        "prompt": "just greeting 20",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "what is the average age of DevOps Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "DevOps Engineer"
+        }
+    },
+    {
+        "prompt": "what is the average age of Frontend Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Frontend Engineer"
+        }
+    },
+    {
+        "prompt": "how many Rejected applications for Frontend Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "status": "Rejected",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "show me the average age in Alexandria",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "city": "Alexandria"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Website in Mansoura?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Website",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "salary expectations for QA Engineer in Mansoura",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "skills for applicants in Suez",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "city": "Suez"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "just greeting 14",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "how many Pending applications for Backend Engineer from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "status": "Pending",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "top skills of Software Engineer candidates in Alexandria",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "top skills of Data Analyst candidates in Alexandria",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "average age of DevOps Engineer in Giza",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "just greeting 17",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "what is the average age of Product Manager applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Website in Cairo?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Website",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "average salary expectation?",
+        "expected_intent": "salary_expectation",
+        "expected_params": {},
+        "is_missing_params": true
+    },
+    {
+        "prompt": "how many Accepted applications for AI Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "AI Engineer",
+            "status": "Accepted",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "average age of Data Analyst in Tanta",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Tanta"
+        }
+    },
+    {
+        "prompt": "how many Rejected applications for Data Scientist from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Data Scientist",
+            "status": "Rejected",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "just greeting 5",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "average age of Frontend Engineer in Cairo",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "how many Accepted applications for Software Engineer from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Software Engineer",
+            "status": "Accepted",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "salary expectations for DevOps Engineer in Giza",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "average age of DevOps Engineer in Tanta",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Tanta"
+        }
+    },
+    {
+        "prompt": "salary expectations for QA Engineer in Alexandria",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "test test",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "what are the key skills in Tanta?",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "city": "Tanta"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "average age of AI Engineer in Assiut",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Assiut"
+        }
+    },
+    {
+        "prompt": "how many Accepted applications for Frontend Engineer from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "status": "Accepted",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "what is the average age of Backend Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Backend Engineer"
+        }
+    },
+    {
+        "prompt": "top skills of Product Manager candidates in Mansoura",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "average age of QA Engineer in Alexandria",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "tell me query number 25 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "tell me query number 17 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "how many Rejected applications for Data Scientist from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Data Scientist",
+            "status": "Rejected",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "just greeting 18",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "salary expectations for DevOps Engineer in Cairo",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "reset session",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from LinkedIn in Alexandria?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "LinkedIn",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "average age of Data Scientist in Assiut",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Assiut"
+        }
+    },
+    {
+        "prompt": "top skills of Data Analyst candidates in Giza",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "how many Accepted applications for Data Scientist from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Data Scientist",
+            "status": "Accepted",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "tell me query number 0 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "salary expectations for AI Engineer in Giza",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "what is the average age of Product Manager applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager"
+        }
+    },
+    {
+        "prompt": "how many Rejected applications for Frontend Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "status": "Rejected",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "how many Rejected applications for AI Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "AI Engineer",
+            "status": "Rejected",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "just greeting 12",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "top skills of Data Scientist candidates in Cairo",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "average age of UI Designer in Alexandria",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "what is the average age of AI Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "AI Engineer"
+        }
+    },
+    {
+        "prompt": "how many Pending applications for Backend Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "status": "Pending",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "average age of UI Designer in Cairo",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "average age of Data Analyst in Giza",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "what is the average age of Data Analyst applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Analyst"
+        }
+    },
+    {
+        "prompt": "top skills of AI Engineer candidates in Alexandria",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "what is the average age of DevOps Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "DevOps Engineer"
+        }
+    },
+    {
+        "prompt": "top skills of AI Engineer candidates in Cairo",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "average age of Data Scientist in Mansoura",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Glassdoor in Mansoura?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Glassdoor",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "tell me a bedtime story",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "average age of Data Analyst in Assiut",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Assiut"
+        }
+    },
+    {
+        "prompt": "average age of Product Manager in Giza",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "what are the key skills in Hurghada?",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "city": "Hurghada"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "what is the average age of Product Manager applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager"
+        }
+    },
+    {
+        "prompt": "what is the average age of AI Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "AI Engineer"
+        }
+    },
+    {
+        "prompt": "what is the salary expectation in Alexandria?",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "city": "Alexandria"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "average age of UI Designer in Assiut",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Assiut"
+        }
+    },
+    {
+        "prompt": "just greeting 23",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "what is the average age of AI Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "AI Engineer"
+        }
+    },
+    {
+        "prompt": "average age of Data Analyst in Cairo",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "what is the salary expectation in Suez?",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "city": "Suez"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "average age of Frontend Engineer in Tanta",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Tanta"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Website in Alexandria?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Website",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "how many Pending applications for AI Engineer from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "AI Engineer",
+            "status": "Pending",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "just greeting 21",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "best hotels in Tokyo",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "salary expectations for Frontend Engineer in Mansoura",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "what is the average age of AI Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "AI Engineer"
+        }
+    },
+    {
+        "prompt": "definition of photosynthesis",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "just greeting 8",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "what is the average age?",
+        "expected_intent": "average_age",
+        "expected_params": {},
+        "is_missing_params": true
+    },
+    {
+        "prompt": "tell me query number 21 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "just greeting 16",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "average age of UI Designer in Mansoura",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Glassdoor in Cairo?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Glassdoor",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "tell me query number 23 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "salary expectations for Backend Engineer in Cairo",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "top skills of UI Designer candidates in Alexandria",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "what is the average age of Data Analyst applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Analyst"
+        }
+    },
+    {
+        "prompt": "what is the average age of Data Scientist applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Scientist"
+        }
+    },
+    {
+        "prompt": "average age of DevOps Engineer in Mansoura",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "average age of QA Engineer in Cairo",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "what is the average age of Product Manager applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager"
+        }
+    },
+    {
+        "prompt": "top skills of Data Analyst candidates in Cairo",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "what are the key skills in Cairo?",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "city": "Cairo"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "show me the average age in Assiut",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "city": "Assiut"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "how many Accepted applications for Backend Engineer from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "status": "Accepted",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "average age of Software Engineer in Mansoura",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "salary expectations for Product Manager in Giza",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "what is the average age of AI Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "AI Engineer"
+        }
+    },
+    {
+        "prompt": "average age of AI Engineer in Cairo",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "history of the Roman Empire",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "skills for applicants in Cairo",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "city": "Cairo"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "how to repair a laptop screen",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "what is the average age of DevOps Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "DevOps Engineer"
+        }
+    },
+    {
+        "prompt": "top skills of AI Engineer candidates in Giza",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "salary expectations for UI Designer in Cairo",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "salary expectations for AI Engineer in Alexandria",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "what is the average age of Backend Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Backend Engineer"
+        }
+    },
+    {
+        "prompt": "what is the average age of Software Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer"
+        }
+    },
+    {
+        "prompt": "tell me query number 8 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "average age of QA Engineer in Mansoura",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "what is the average age of UI Designer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "UI Designer"
+        }
+    },
+    {
+        "prompt": "hey there",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "what is the average age of UI Designer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "UI Designer"
+        }
+    },
+    {
+        "prompt": "top skills of Frontend Engineer candidates in Cairo",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "just greeting 0",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "how many Accepted applications for Backend Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "status": "Accepted",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "dashboard",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "how many Pending applications for Frontend Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "status": "Pending",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "tell me query number 16 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "what is the average age of Data Analyst applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Analyst"
+        }
+    },
+    {
+        "prompt": "what is the average age of Data Analyst applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Analyst"
+        }
+    },
+    {
+        "prompt": "top skills of DevOps Engineer candidates in Giza",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from LinkedIn in Mansoura?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "LinkedIn",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "what are the key skills in Giza?",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "city": "Giza"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "salary expectations for Data Scientist in Cairo",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "salary expectations for Data Scientist in Giza",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "salary expectations for DevOps Engineer in Mansoura",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Indeed in Mansoura?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Indeed",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "formula for quadratic equation",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "what is the salary expectation in Hurghada?",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "city": "Hurghada"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "how many Rejected applications for Backend Engineer from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "status": "Rejected",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "just greeting 13",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "what is the average age of QA Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer"
+        }
+    },
+    {
+        "prompt": "just greeting 22",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "average age of QA Engineer in Giza",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "how many Accepted applications for AI Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "AI Engineer",
+            "status": "Accepted",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "top skills of DevOps Engineer candidates in Cairo",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "tell me query number 27 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "how many Rejected applications for AI Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "AI Engineer",
+            "status": "Rejected",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "tell me query number 19 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "tell me query number 3 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "average age of Software Engineer in Assiut",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Assiut"
+        }
+    },
+    {
+        "prompt": "analytics help",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "average age of UI Designer in Giza",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "show me the average age in Suez",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "city": "Suez"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "top skills of QA Engineer candidates in Alexandria",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "how many Pending applications for Backend Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "status": "Pending",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "show me the average age in Cairo",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "city": "Cairo"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "tell me query number 26 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "what is the average age of UI Designer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "UI Designer"
+        }
+    },
+    {
+        "prompt": "just greeting 7",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "average age of Frontend Engineer in Assiut",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Assiut"
+        }
+    },
+    {
+        "prompt": "average age of Data Scientist in Cairo",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "recipe for chicken pasta",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "top skills of Product Manager candidates in Alexandria",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "how many Pending applications for Software Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Software Engineer",
+            "status": "Pending",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "salary expectations for Data Analyst in Giza",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "what is the average age of UI Designer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "UI Designer"
+        }
+    },
+    {
+        "prompt": "average age of Software Engineer in Alexandria",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "average age of Software Engineer in Cairo",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "what is the average age?",
+        "expected_intent": "average_age",
+        "expected_params": {},
+        "is_missing_params": true
+    },
+    {
+        "prompt": "translate hello to Spanish",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "how many Accepted applications for Data Scientist from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Data Scientist",
+            "status": "Accepted",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "what is the average age of Software Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer"
+        }
+    },
+    {
+        "prompt": "top skills of DevOps Engineer candidates in Mansoura",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "how many Rejected applications for Software Engineer from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Software Engineer",
+            "status": "Rejected",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "average age of Backend Engineer in Alexandria",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "just greeting 9",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "tell me query number 10 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "system status",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "how many Accepted applications for Software Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Software Engineer",
+            "status": "Accepted",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "average age of Data Scientist in Tanta",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Tanta"
+        }
+    },
+    {
+        "prompt": "salary expectations for Frontend Engineer in Cairo",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "what is the average age of DevOps Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "DevOps Engineer"
+        }
+    },
+    {
+        "prompt": "tell me query number 29 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "top skills of Data Scientist candidates in Giza",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "average age of Frontend Engineer in Giza",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "salary expectations for Product Manager in Mansoura",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "average salary expectation?",
+        "expected_intent": "salary_expectation",
+        "expected_params": {},
+        "is_missing_params": true
+    },
+    {
+        "prompt": "what is the average age of Data Scientist applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Scientist"
+        }
+    },
+    {
+        "prompt": "average age of QA Engineer in Tanta",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Tanta"
+        }
+    },
+    {
+        "prompt": "explain the theory of relativity",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "tell me query number 4 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Glassdoor in Giza?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Glassdoor",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "what is the average age of QA Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer"
+        }
+    },
+    {
+        "prompt": "what is the salary expectation in Giza?",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "city": "Giza"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "hi chatbot",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "what is the price of Bitcoin?",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "top skills of Software Engineer candidates in Cairo",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "salary expectations for Backend Engineer in Giza",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "how many Pending applications for Frontend Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "status": "Pending",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "top skills of Backend Engineer candidates in Mansoura",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "average age of Frontend Engineer in Mansoura",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "what is the average age of DevOps Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "DevOps Engineer"
+        }
+    },
+    {
+        "prompt": "what are the key skills in Suez?",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "city": "Suez"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "what is the average age of Frontend Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Frontend Engineer"
+        }
+    },
+    {
+        "prompt": "what is the average age of Data Analyst applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Analyst"
+        }
+    },
+    {
+        "prompt": "what are the key skills in Alexandria?",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "city": "Alexandria"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "skills for applicants in Tanta",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "city": "Tanta"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "just greeting 19",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "tell me query number 18 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "just greeting 24",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "show me the average age in Hurghada",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "city": "Hurghada"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "how many Accepted applications for AI Engineer from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "AI Engineer",
+            "status": "Accepted",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "what is the salary expectation in Cairo?",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "city": "Cairo"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "skills for applicants in Giza",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "city": "Giza"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "who won the world cup in 2022?",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "weather report for London",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "just greeting 3",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "average age of Product Manager in Alexandria",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "tell me query number 5 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "what is the average age?",
+        "expected_intent": "average_age",
+        "expected_params": {},
+        "is_missing_params": true
+    },
+    {
+        "prompt": "who directed the movie Inception?",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "how many Accepted applications for Data Scientist from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Data Scientist",
+            "status": "Accepted",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "what is the average age of Data Analyst applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Analyst"
+        }
+    },
+    {
+        "prompt": "average age of UI Designer in Tanta",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Tanta"
+        }
+    },
+    {
+        "prompt": "what is the average age of Frontend Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Frontend Engineer"
+        }
+    },
+    {
+        "prompt": "chat room",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "just greeting 11",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "top skills of QA Engineer candidates in Giza",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "tell me query number 22 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "just greeting 29",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Glassdoor in Alexandria?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Glassdoor",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from LinkedIn in Cairo?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "LinkedIn",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "average age of Product Manager in Cairo",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "just greeting 1",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "how many Pending applications for Software Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Software Engineer",
+            "status": "Pending",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "average age of AI Engineer in Mansoura",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "what is the average age of Backend Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Backend Engineer"
+        }
+    },
+    {
+        "prompt": "just greeting 2",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "just greeting 15",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "exit",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "admin access",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "what is the salary expectation in Mansoura?",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "city": "Mansoura"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "just greeting 6",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "what is the salary expectation in Tanta?",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "city": "Tanta"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "tell me query number 7 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Indeed in Alexandria?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Indeed",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "show me the average age in Mansoura",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "city": "Mansoura"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "good morning",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "top skills of QA Engineer candidates in Mansoura",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "tell me query number 24 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "average age of DevOps Engineer in Alexandria",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "tell me query number 2 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "what is the average age of Backend Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Backend Engineer"
+        }
+    },
+    {
+        "prompt": "how does photosynthesis work?",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "how to play the guitar",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "tell me query number 11 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "tell me query number 14 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "how many Pending applications for Data Scientist from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Data Scientist",
+            "status": "Pending",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "how many Rejected applications for Data Scientist from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Data Scientist",
+            "status": "Rejected",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "average salary expectation?",
+        "expected_intent": "salary_expectation",
+        "expected_params": {},
+        "is_missing_params": true
+    },
+    {
+        "prompt": "salary expectations for QA Engineer in Cairo",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "how many Pending applications for Data Scientist from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Data Scientist",
+            "status": "Pending",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "what is the average age of Data Scientist applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Scientist"
+        }
+    },
+    {
+        "prompt": "top skills of Data Analyst candidates in Mansoura",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "suggest some books on history",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "average age of Data Scientist in Alexandria",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Indeed in Giza?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Indeed",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "how many Accepted applications for Frontend Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "status": "Accepted",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "tell me query number 12 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "just greeting 25",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "just greeting 27",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "hello",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "top skills of AI Engineer candidates in Mansoura",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "average age of Software Engineer in Giza",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "salary expectations for AI Engineer in Cairo",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "what is the average age of Software Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer"
+        }
+    },
+    {
+        "prompt": "what is the average age of Frontend Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Frontend Engineer"
+        }
+    },
+    {
+        "prompt": "salary expectations for DevOps Engineer in Alexandria",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "how many Rejected applications for Frontend Engineer from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "status": "Rejected",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "what is the average age of Backend Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Backend Engineer"
+        }
+    },
+    {
+        "prompt": "top skills of Backend Engineer candidates in Alexandria",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "how many Pending applications for AI Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "AI Engineer",
+            "status": "Pending",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "average salary expectation?",
+        "expected_intent": "salary_expectation",
+        "expected_params": {},
+        "is_missing_params": true
+    },
+    {
+        "prompt": "average age of DevOps Engineer in Assiut",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Assiut"
+        }
+    },
+    {
+        "prompt": "salary expectations for Data Scientist in Alexandria",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "average age of AI Engineer in Tanta",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Tanta"
+        }
+    },
+    {
+        "prompt": "what is the average age of Software Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer"
+        }
+    },
+    {
+        "prompt": "how many Pending applications for Frontend Engineer from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "status": "Pending",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "top skills of Software Engineer candidates in Giza",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "top skills of UI Designer candidates in Mansoura",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "salary expectations for Data Scientist in Mansoura",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "what is the salary expectation in Assiut?",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "city": "Assiut"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "average age of Frontend Engineer in Alexandria",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "skills for applicants in Assiut",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "city": "Assiut"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "salary expectations for Software Engineer in Alexandria",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "just greeting 10",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "tell me query number 9 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "show me the average age in Tanta",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "city": "Tanta"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "how many Rejected applications for AI Engineer from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "AI Engineer",
+            "status": "Rejected",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "average age of Backend Engineer in Giza",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "what is the average age of Product Manager applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager"
+        }
+    },
+    {
+        "prompt": "salary expectations for Software Engineer in Mansoura",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "top skills of Product Manager candidates in Giza",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "top skills of QA Engineer candidates in Cairo",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "what is the average age?",
+        "expected_intent": "average_age",
+        "expected_params": {},
+        "is_missing_params": true
+    },
+    {
+        "prompt": "average salary expectation?",
+        "expected_intent": "salary_expectation",
+        "expected_params": {},
+        "is_missing_params": true
+    },
+    {
+        "prompt": "salary expectations for Frontend Engineer in Alexandria",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Indeed in Cairo?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Indeed",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "how many Pending applications for AI Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "AI Engineer",
+            "status": "Pending",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "average salary expectation?",
+        "expected_intent": "salary_expectation",
+        "expected_params": {},
+        "is_missing_params": true
+    },
+    {
+        "prompt": "tell me query number 15 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "salary expectations for Product Manager in Cairo",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "yo",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "tell me query number 1 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Referral in Cairo?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Referral",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "what is the average age of Frontend Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Frontend Engineer"
+        }
+    },
+    {
+        "prompt": "what is the average age of QA Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer"
+        }
+    },
+    {
+        "prompt": "show me the average age in Giza",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "city": "Giza"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "how many Rejected applications for Software Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Software Engineer",
+            "status": "Rejected",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "tell me query number 6 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "top skills of Frontend Engineer candidates in Mansoura",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "salary expectations for Product Manager in Alexandria",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "what is the average age of Software Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer"
+        }
+    },
+    {
+        "prompt": "tell me query number 20 about unrelated topic",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "how many Rejected applications for Software Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Software Engineer",
+            "status": "Rejected",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Referral in Giza?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Referral",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "what is the average age of AI Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "AI Engineer"
+        }
+    },
+    {
+        "prompt": "what is the average age of Software Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer"
+        }
+    },
+    {
+        "prompt": "salary expectations for UI Designer in Mansoura",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "salary expectations for AI Engineer in Mansoura",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Website in Giza?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Website",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "top skills of Software Engineer candidates in Mansoura",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "top skills of Data Scientist candidates in Alexandria",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "hola",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "salary expectations for Software Engineer in Cairo",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "how many Accepted applications for Backend Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "status": "Accepted",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "average age of Product Manager in Assiut",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Assiut"
+        }
+    },
+    {
+        "prompt": "average age of Data Scientist in Giza",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "skills for applicants in Hurghada",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "city": "Hurghada"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "top skills of DevOps Engineer candidates in Alexandria",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "start over",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "what is the average age?",
+        "expected_intent": "average_age",
+        "expected_params": {},
+        "is_missing_params": true
+    },
+    {
+        "prompt": "how many Rejected applications for Backend Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "status": "Rejected",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "just greeting 28",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "help please",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "what is the average age of Data Scientist applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Scientist"
+        }
+    },
+    {
+        "prompt": "how many Accepted applications for Software Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Software Engineer",
+            "status": "Accepted",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "what is the average age?",
+        "expected_intent": "average_age",
+        "expected_params": {},
+        "is_missing_params": true
+    },
+    {
+        "prompt": "what is the capital of France?",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "what is the average age of QA Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer"
+        }
+    },
+    {
+        "prompt": "what is the speed of light?",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_unsupported": true
+    },
+    {
+        "prompt": "what is the average age?",
+        "expected_intent": "average_age",
+        "expected_params": {},
+        "is_missing_params": true
+    },
+    {
+        "prompt": "salary expectations for UI Designer in Giza",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "salary expectations for Data Analyst in Cairo",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "what is the average age of Product Manager applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager"
+        }
+    },
+    {
+        "prompt": "salary expectations for QA Engineer in Giza",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "salary expectations for UI Designer in Alexandria",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "average age of Data Analyst in Alexandria",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "what are the key skills in Mansoura?",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "city": "Mansoura"
+        },
+        "is_missing_params": true
+    },
+    {
+        "prompt": "how many Pending applications for Data Scientist from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Data Scientist",
+            "status": "Pending",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "what is the average age of Frontend Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Frontend Engineer"
+        }
+    },
+    {
+        "prompt": "salary expectations for Software Engineer in Giza",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "top skills of Frontend Engineer candidates in Giza",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "salary expectations for Frontend Engineer in Giza",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "main menu",
+        "expected_intent": "unknown",
+        "expected_params": {},
+        "is_low_confidence": true
+    },
+    {
+        "prompt": "salary expectations for Backend Engineer in Mansoura",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "salary expectations for Data Scientist in Alexandria",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "how many Rejected applications for Backend Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "status": "Rejected",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "top skills of QA Engineer candidates in Mansoura",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "how many Accepted applications for Data Scientist from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Data Scientist",
+            "status": "Accepted",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "what is the average age of Product Manager applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager"
+        }
+    },
+    {
+        "prompt": "what is the average age of Software Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer"
+        }
+    },
+    {
+        "prompt": "salary expectations for Data Scientist in Cairo",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "top skills of UI Designer candidates in Giza",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "top skills of QA Engineer candidates in Cairo",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "average age of QA Engineer in Tanta",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Tanta"
+        }
+    },
+    {
+        "prompt": "average age of DevOps Engineer in Cairo",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "salary expectations for Data Analyst in Giza",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "how many Rejected applications for Software Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Software Engineer",
+            "status": "Rejected",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "what is the average age of Frontend Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Frontend Engineer"
+        }
+    },
+    {
+        "prompt": "top skills of Data Scientist candidates in Cairo",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "top skills of DevOps Engineer candidates in Giza",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "average age of Frontend Engineer in Cairo",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "average age of Data Analyst in Assiut",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Assiut"
+        }
+    },
+    {
+        "prompt": "how many Rejected applications for Frontend Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "status": "Rejected",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "salary expectations for QA Engineer in Mansoura",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Website in Cairo?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Website",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "average age of AI Engineer in Assiut",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Assiut"
+        }
+    },
+    {
+        "prompt": "salary expectations for DevOps Engineer in Giza",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "average age of Product Manager in Tanta",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Tanta"
+        }
+    },
+    {
+        "prompt": "top skills of Software Engineer candidates in Alexandria",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "how many Rejected applications for Frontend Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "status": "Rejected",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "salary expectations for UI Designer in Cairo",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "average age of Data Analyst in Giza",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "average age of DevOps Engineer in Mansoura",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Referral in Cairo?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Referral",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "what is the average age of Product Manager applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager"
+        }
+    },
+    {
+        "prompt": "how many Accepted applications for Backend Engineer from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "status": "Accepted",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "salary expectations for Frontend Engineer in Cairo",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "top skills of DevOps Engineer candidates in Alexandria",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "how many Accepted applications for AI Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "AI Engineer",
+            "status": "Accepted",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "top skills of Software Engineer candidates in Alexandria",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "how many Rejected applications for Backend Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "status": "Rejected",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "what is the average age of Data Scientist applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Scientist"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Indeed in Giza?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Indeed",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "what is the average age of Product Manager applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager"
+        }
+    },
+    {
+        "prompt": "salary expectations for Data Scientist in Alexandria",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "top skills of Frontend Engineer candidates in Mansoura",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "what is the average age of Software Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer"
+        }
+    },
+    {
+        "prompt": "top skills of Product Manager candidates in Alexandria",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "top skills of Data Analyst candidates in Mansoura",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "average age of Data Analyst in Mansoura",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "salary expectations for UI Designer in Cairo",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "how many Pending applications for Data Scientist from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Data Scientist",
+            "status": "Pending",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "salary expectations for Data Analyst in Alexandria",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Data Analyst",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "top skills of AI Engineer candidates in Mansoura",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "salary expectations for UI Designer in Alexandria",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "average age of QA Engineer in Assiut",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Assiut"
+        }
+    },
+    {
+        "prompt": "how many Rejected applications for Frontend Engineer from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "status": "Rejected",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "salary expectations for Frontend Engineer in Cairo",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "what is the average age of Product Manager applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager"
+        }
+    },
+    {
+        "prompt": "top skills of Product Manager candidates in Giza",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Product Manager",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "what is the average age of Data Scientist applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Scientist"
+        }
+    },
+    {
+        "prompt": "average age of QA Engineer in Giza",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "what is the average age of Software Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Referral in Giza?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Referral",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "top skills of Software Engineer candidates in Cairo",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Cairo"
+        }
+    },
+    {
+        "prompt": "how many Accepted applications for AI Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "AI Engineer",
+            "status": "Accepted",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "what is the average age of Software Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer"
+        }
+    },
+    {
+        "prompt": "top skills of DevOps Engineer candidates in Mansoura",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "DevOps Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "salary expectations for QA Engineer in Giza",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "top skills of Frontend Engineer candidates in Giza",
+        "expected_intent": "top_skills",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "how many Pending applications for Software Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Software Engineer",
+            "status": "Pending",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "average age of Backend Engineer in Giza",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "average age of AI Engineer in Giza",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "salary expectations for Frontend Engineer in Giza",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Frontend Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "how many Rejected applications for AI Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "AI Engineer",
+            "status": "Rejected",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "salary expectations for Software Engineer in Giza",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "salary expectations for Software Engineer in Mansoura",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Software Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "how many Pending applications for Backend Engineer from Indeed?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Backend Engineer",
+            "status": "Pending",
+            "source": "Indeed"
+        }
+    },
+    {
+        "prompt": "what is the average age of Product Manager applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Product Manager"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Glassdoor in Mansoura?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Glassdoor",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "average age of UI Designer in Mansoura",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "UI Designer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "what is the rejection rate for candidates from Website in Giza?",
+        "expected_intent": "rejection_rate",
+        "expected_params": {
+            "source": "Website",
+            "city": "Giza"
+        }
+    },
+    {
+        "prompt": "what is the average age of Data Scientist applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Data Scientist"
+        }
+    },
+    {
+        "prompt": "how many Pending applications for Software Engineer from Website?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Software Engineer",
+            "status": "Pending",
+            "source": "Website"
+        }
+    },
+    {
+        "prompt": "salary expectations for Data Scientist in Alexandria",
+        "expected_intent": "salary_expectation",
+        "expected_params": {
+            "role": "Data Scientist",
+            "city": "Alexandria"
+        }
+    },
+    {
+        "prompt": "what is the average age of Software Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "Software Engineer"
+        }
+    },
+    {
+        "prompt": "what is the average age of QA Engineer applicants?",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer"
+        }
+    },
+    {
+        "prompt": "average age of AI Engineer in Mansoura",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Mansoura"
+        }
+    },
+    {
+        "prompt": "average age of AI Engineer in Tanta",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "AI Engineer",
+            "city": "Tanta"
+        }
+    },
+    {
+        "prompt": "how many Accepted applications for Software Engineer from LinkedIn?",
+        "expected_intent": "application_count",
+        "expected_params": {
+            "role": "Software Engineer",
+            "status": "Accepted",
+            "source": "LinkedIn"
+        }
+    },
+    {
+        "prompt": "average age of QA Engineer in Cairo",
+        "expected_intent": "average_age",
+        "expected_params": {
+            "role": "QA Engineer",
+            "city": "Cairo"
+        }
+    }
+]
