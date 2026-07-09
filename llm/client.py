@@ -12,7 +12,9 @@ logger = logging.getLogger("TalkativeDashboard.LLMClient")
 
 class LLMClient:
     def __init__(self):
-        self.model = "llama-3.3-70b-versatile"
+        #self.model = "llama-3.3-70b-versatile"
+        self.model = "openai/gpt-oss-120b"
+
         self.current_client_idx = 0
 
         possible_keys = [

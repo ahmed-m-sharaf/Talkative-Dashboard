@@ -4237,3 +4237,157 @@
 [2026-07-08 21:43:25] INFO [TalkativeDashboard.LLMClient:client.py:49]: Initialized LLMClient with 3 Groq API key(s).
 [2026-07-08 21:44:05] INFO [TalkativeDashboard.LLMClient:client.py:49]: Initialized LLMClient with 3 Groq API key(s).
 [2026-07-08 21:51:51] INFO [TalkativeDashboard.LLMClient:client.py:49]: Initialized LLMClient with 3 Groq API key(s).
+[2026-07-09 10:53:27] INFO [TalkativeDashboard.LLMClient:client.py:49]: Initialized LLMClient with 1 Groq API key(s).
+[2026-07-09 10:53:32] INFO [TalkativeDashboard.LLMClient:client.py:49]: Initialized LLMClient with 1 Groq API key(s).
+[2026-07-09 10:53:47] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'get avg age of ai in cairo'
+[2026-07-09 10:53:48] WARNING [TalkativeDashboard.LLMClient:client.py:77]: Groq API call failed using client key index 0. Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[2026-07-09 10:53:48] ERROR [TalkativeDashboard.LLMClient:client.py:83]: All available Groq API keys failed or rate-limited.
+[2026-07-09 10:55:52] INFO [TalkativeDashboard.LLMClient:client.py:49]: Initialized LLMClient with 3 Groq API key(s).
+[2026-07-09 10:55:56] INFO [TalkativeDashboard.LLMClient:client.py:49]: Initialized LLMClient with 3 Groq API key(s).
+[2026-07-09 10:56:03] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'get avg age of ai engineer'
+[2026-07-09 10:56:04] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.90 (latency: 0.807s)
+[2026-07-09 10:56:04] INFO [TalkativeDashboard:dashboard_engine.py:129]: Backend execution successful (latency: 0.005s)
+[2026-07-09 10:56:04] INFO [TalkativeDashboard:dashboard_engine.py:133]: Total prompt processing completed in 0.815s
+[2026-07-09 10:57:16] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'top skills of Software Eng'
+[2026-07-09 10:57:16] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.TOP_SKILLS' with confidence: 0.80 (latency: 0.506s)
+[2026-07-09 10:57:17] INFO [TalkativeDashboard:dashboard_engine.py:129]: Backend execution successful (latency: 0.236s)
+[2026-07-09 10:57:17] INFO [TalkativeDashboard:dashboard_engine.py:133]: Total prompt processing completed in 0.746s
+[2026-07-09 10:57:49] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'masr is egypt'
+[2026-07-09 10:57:50] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.UNKNOWN' with confidence: 0.00 (latency: 0.623s)
+[2026-07-09 10:57:50] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (0.00), or unmapped prompt: 'masr is egypt'
+[2026-07-09 10:59:19] INFO [TalkativeDashboard.LLMClient:client.py:49]: Initialized LLMClient with 3 Groq API key(s).
+[2026-07-09 10:59:24] INFO [TalkativeDashboard.LLMClient:client.py:49]: Initialized LLMClient with 3 Groq API key(s).
+[2026-07-09 10:59:36] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'what is your name'
+[2026-07-09 10:59:36] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.UNKNOWN' with confidence: 1.00 (latency: 0.557s)
+[2026-07-09 10:59:36] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (1.00), or unmapped prompt: 'what is your name'
+[2026-07-09 10:59:50] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'count number of application opend'
+[2026-07-09 10:59:51] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.APPLICATION_COUNT' with confidence: 0.80 (latency: 0.604s)
+[2026-07-09 10:59:51] INFO [TalkativeDashboard:dashboard_engine.py:129]: Backend execution successful (latency: 0.024s)
+[2026-07-09 10:59:51] INFO [TalkativeDashboard:dashboard_engine.py:133]: Total prompt processing completed in 0.630s
+[2026-07-09 11:13:08] INFO [TalkativeDashboard.LLMClient:client.py:49]: Initialized LLMClient with 3 Groq API key(s).
+[2026-07-09 11:13:09] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'average age of Software Engineers'
+[2026-07-09 11:13:11] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.90 (latency: 1.749s)
+[2026-07-09 11:13:11] INFO [TalkativeDashboard:dashboard_engine.py:129]: Backend execution successful (latency: 0.004s)
+[2026-07-09 11:13:11] INFO [TalkativeDashboard:dashboard_engine.py:133]: Total prompt processing completed in 1.755s
+[2026-07-09 11:13:11] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'who won the soccer world cup?'
+[2026-07-09 11:13:11] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.UNKNOWN' with confidence: 0.80 (latency: 0.299s)
+[2026-07-09 11:13:11] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (0.80), or unmapped prompt: 'who won the soccer world cup?'
+[2026-07-09 11:13:11] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'what is the average age?'
+[2026-07-09 11:13:12] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.80 (latency: 0.477s)
+[2026-07-09 11:13:12] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (0.80), or unmapped prompt: 'what is the average age?'
+[2026-07-09 11:13:30] INFO [TalkativeDashboard.LLMClient:client.py:49]: Initialized LLMClient with 3 Groq API key(s).
+[2026-07-09 11:13:34] INFO [TalkativeDashboard.LLMClient:client.py:49]: Initialized LLMClient with 3 Groq API key(s).
+[2026-07-09 11:13:40] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'how are you'
+[2026-07-09 11:13:41] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.UNKNOWN' with confidence: 0.50 (latency: 0.547s)
+[2026-07-09 11:13:41] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (0.50), or unmapped prompt: 'how are you'
+[2026-07-09 11:14:41] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'Average age of Software Engineers
+
+'
+[2026-07-09 11:14:41] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.90 (latency: 0.749s)
+[2026-07-09 11:14:41] INFO [TalkativeDashboard:dashboard_engine.py:129]: Backend execution successful (latency: 0.003s)
+[2026-07-09 11:14:41] INFO [TalkativeDashboard:dashboard_engine.py:133]: Total prompt processing completed in 0.754s
+[2026-07-09 11:18:30] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'avg age'
+[2026-07-09 11:18:31] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.80 (latency: 0.567s)
+[2026-07-09 11:18:31] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (0.80), or unmapped prompt: 'avg age'
+[2026-07-09 11:18:38] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'average age'
+[2026-07-09 11:18:39] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.80 (latency: 0.794s)
+[2026-07-09 11:18:39] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (0.80), or unmapped prompt: 'average age'
+[2026-07-09 11:18:46] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'average age of masr'
+[2026-07-09 11:18:47] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.80 (latency: 0.550s)
+[2026-07-09 11:18:47] WARNING [TalkativeDashboard:dashboard_engine.py:74]: Missing required parameters for intent 'Intent.AVERAGE_AGE': ['role']
+[2026-07-09 11:19:13] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'average age of ai
+
+'
+[2026-07-09 11:19:13] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.80 (latency: 0.407s)
+[2026-07-09 11:19:13] WARNING [TalkativeDashboard:dashboard_engine.py:101]: Parameter validation failed: Unknown job role: 'AI'.
+[2026-07-09 11:20:06] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'average age of Software Engineers'
+[2026-07-09 11:20:06] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.90 (latency: 0.593s)
+[2026-07-09 11:20:06] INFO [TalkativeDashboard:dashboard_engine.py:129]: Backend execution successful (latency: 0.004s)
+[2026-07-09 11:20:06] INFO [TalkativeDashboard:dashboard_engine.py:133]: Total prompt processing completed in 0.599s
+[2026-07-09 11:20:06] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'who won the soccer world cup?'
+[2026-07-09 11:20:07] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.UNKNOWN' with confidence: 0.80 (latency: 0.425s)
+[2026-07-09 11:20:07] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (0.80), or unmapped prompt: 'who won the soccer world cup?'
+[2026-07-09 11:20:07] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'what is the average age?'
+[2026-07-09 11:20:07] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.80 (latency: 0.382s)
+[2026-07-09 11:20:07] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (0.80), or unmapped prompt: 'what is the average age?'
+[2026-07-09 11:20:45] INFO [TalkativeDashboard.LLMClient:client.py:49]: Initialized LLMClient with 3 Groq API key(s).
+[2026-07-09 11:20:45] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'average age of Software Engineers'
+[2026-07-09 11:20:46] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.90 (latency: 0.540s)
+[2026-07-09 11:20:46] INFO [TalkativeDashboard:dashboard_engine.py:129]: Backend execution successful (latency: 0.003s)
+[2026-07-09 11:20:46] INFO [TalkativeDashboard:dashboard_engine.py:133]: Total prompt processing completed in 0.545s
+[2026-07-09 11:20:46] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'who won the soccer world cup?'
+[2026-07-09 11:20:46] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.UNKNOWN' with confidence: 0.00 (latency: 0.283s)
+[2026-07-09 11:20:46] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (0.00), or unmapped prompt: 'who won the soccer world cup?'
+[2026-07-09 11:20:46] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'what is the average age?'
+[2026-07-09 11:20:47] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.80 (latency: 0.445s)
+[2026-07-09 11:20:47] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (0.80), or unmapped prompt: 'what is the average age?'
+[2026-07-09 11:20:55] INFO [TalkativeDashboard.LLMClient:client.py:49]: Initialized LLMClient with 3 Groq API key(s).
+[2026-07-09 11:21:00] INFO [TalkativeDashboard.LLMClient:client.py:49]: Initialized LLMClient with 3 Groq API key(s).
+[2026-07-09 11:21:05] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'avg age'
+[2026-07-09 11:21:05] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.80 (latency: 0.741s)
+[2026-07-09 11:21:05] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (0.80), or unmapped prompt: 'avg age'
+[2026-07-09 11:21:17] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'average age of ai '
+[2026-07-09 11:21:17] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.80 (latency: 0.455s)
+[2026-07-09 11:21:17] WARNING [TalkativeDashboard:dashboard_engine.py:101]: Parameter validation failed: Unknown job role: 'AI'.
+[2026-07-09 11:21:37] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'avg age'
+[2026-07-09 11:21:38] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.80 (latency: 0.541s)
+[2026-07-09 11:21:38] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (0.80), or unmapped prompt: 'avg age'
+[2026-07-09 11:21:55] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'top skills'
+[2026-07-09 11:21:55] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.TOP_SKILLS' with confidence: 0.80 (latency: 0.535s)
+[2026-07-09 11:21:55] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (0.80), or unmapped prompt: 'top skills'
+[2026-07-09 11:22:04] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'top skills for ai'
+[2026-07-09 11:22:05] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.TOP_SKILLS' with confidence: 0.80 (latency: 0.536s)
+[2026-07-09 11:22:05] WARNING [TalkativeDashboard:dashboard_engine.py:101]: Parameter validation failed: Unknown job role: 'AI'.
+[2026-07-09 11:22:12] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'top skills for ai eng'
+[2026-07-09 11:22:12] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.TOP_SKILLS' with confidence: 0.80 (latency: 0.417s)
+[2026-07-09 11:22:12] INFO [TalkativeDashboard:dashboard_engine.py:129]: Backend execution successful (latency: 0.021s)
+[2026-07-09 11:22:12] INFO [TalkativeDashboard:dashboard_engine.py:133]: Total prompt processing completed in 0.442s
+[2026-07-09 11:23:15] INFO [TalkativeDashboard.LLMClient:client.py:51]: Initialized LLMClient with 3 Groq API key(s).
+[2026-07-09 11:23:19] INFO [TalkativeDashboard.LLMClient:client.py:51]: Initialized LLMClient with 3 Groq API key(s).
+[2026-07-09 11:23:24] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'avg age'
+[2026-07-09 11:23:25] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.95 (latency: 1.160s)
+[2026-07-09 11:23:25] WARNING [TalkativeDashboard:dashboard_engine.py:74]: Missing required parameters for intent 'Intent.AVERAGE_AGE': ['role']
+[2026-07-09 11:23:38] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'top skills'
+[2026-07-09 11:23:40] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.TOP_SKILLS' with confidence: 0.99 (latency: 1.719s)
+[2026-07-09 11:23:40] WARNING [TalkativeDashboard:dashboard_engine.py:74]: Missing required parameters for intent 'Intent.TOP_SKILLS': ['role']
+[2026-07-09 11:36:19] INFO [TalkativeDashboard.LLMClient:client.py:51]: Initialized LLMClient with 3 Groq API key(s).
+[2026-07-09 11:36:24] INFO [TalkativeDashboard.LLMClient:client.py:51]: Initialized LLMClient with 3 Groq API key(s).
+[2026-07-09 11:36:37] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'avg age of ai eng'
+[2026-07-09 11:36:38] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.98 (latency: 1.329s)
+[2026-07-09 11:36:38] INFO [TalkativeDashboard:dashboard_engine.py:129]: Backend execution successful (latency: 0.003s)
+[2026-07-09 11:36:38] INFO [TalkativeDashboard:dashboard_engine.py:133]: Total prompt processing completed in 1.334s
+[2026-07-09 11:37:05] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'number of ai engineer in masr'
+[2026-07-09 11:37:06] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.APPLICATION_COUNT' with confidence: 0.99 (latency: 1.254s)
+[2026-07-09 11:37:06] WARNING [TalkativeDashboard:dashboard_engine.py:101]: Parameter validation failed: Unknown city: 'Masr'.
+[2026-07-09 11:37:16] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'number of ai engineer in cairo'
+[2026-07-09 11:37:17] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.APPLICATION_COUNT' with confidence: 0.99 (latency: 1.426s)
+[2026-07-09 11:37:17] INFO [TalkativeDashboard:dashboard_engine.py:129]: Backend execution successful (latency: 0.006s)
+[2026-07-09 11:37:17] INFO [TalkativeDashboard:dashboard_engine.py:133]: Total prompt processing completed in 1.436s
+[2026-07-09 11:37:32] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'get median age of ai eng'
+[2026-07-09 11:37:34] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.96 (latency: 1.932s)
+[2026-07-09 11:37:34] INFO [TalkativeDashboard:dashboard_engine.py:129]: Backend execution successful (latency: 0.004s)
+[2026-07-09 11:37:34] INFO [TalkativeDashboard:dashboard_engine.py:133]: Total prompt processing completed in 1.939s
+[2026-07-09 11:37:43] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'get mode age of ai eng'
+[2026-07-09 11:37:44] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.95 (latency: 1.352s)
+[2026-07-09 11:37:44] INFO [TalkativeDashboard:dashboard_engine.py:129]: Backend execution successful (latency: 0.003s)
+[2026-07-09 11:37:44] INFO [TalkativeDashboard:dashboard_engine.py:133]: Total prompt processing completed in 1.358s
+[2026-07-09 11:37:53] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'get variance age of ai eng'
+[2026-07-09 11:37:55] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.UNKNOWN' with confidence: 0.99 (latency: 1.225s)
+[2026-07-09 11:37:55] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (0.99), or unmapped prompt: 'get variance age of ai eng'
+[2026-07-09 11:40:44] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'get median age of ai in cairo'
+[2026-07-09 11:40:45] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.99 (latency: 1.129s)
+[2026-07-09 11:40:45] WARNING [TalkativeDashboard:dashboard_engine.py:101]: Parameter validation failed: Unknown job role: 'AI'.
+[2026-07-09 11:41:04] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'get median age of ai eng in cairo'
+[2026-07-09 11:41:04] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.AVERAGE_AGE' with confidence: 0.99 (latency: 0.942s)
+[2026-07-09 11:41:04] INFO [TalkativeDashboard:dashboard_engine.py:129]: Backend execution successful (latency: 0.009s)
+[2026-07-09 11:41:04] INFO [TalkativeDashboard:dashboard_engine.py:133]: Total prompt processing completed in 0.957s
+[2026-07-09 11:41:31] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'get standard deviation of ai eng in egypt'
+[2026-07-09 11:41:31] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.UNKNOWN' with confidence: 0.99 (latency: 0.821s)
+[2026-07-09 11:41:31] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (0.99), or unmapped prompt: 'get standard deviation of ai eng in egypt'
+[2026-07-09 11:41:47] INFO [TalkativeDashboard:dashboard_engine.py:21]: Received user prompt: 'get variance of ai eng in egypt
+
+'
+[2026-07-09 11:41:48] INFO [TalkativeDashboard:dashboard_engine.py:29]: Routed to intent: 'Intent.UNKNOWN' with confidence: 1.00 (latency: 1.242s)
+[2026-07-09 11:41:48] WARNING [TalkativeDashboard:dashboard_engine.py:40]: Out of scope, low confidence (1.00), or unmapped prompt: 'get variance of ai eng in egypt
+
+'

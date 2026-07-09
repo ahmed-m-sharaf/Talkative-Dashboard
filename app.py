@@ -104,27 +104,4 @@ if prompt:
 
  
     with st.chat_message("assistant"):
-
         render_response(response)
-
-        with st.expander("Routing Details"):
-
-            st.write(
-                "Intent:",
-                response.intent_mapping.target_endpoint.value,
-            )
-
-            st.write(
-                "Confidence:",
-                response.intent_mapping.confidence_score,
-            )
-
-            st.write(
-                "Parameters:"
-            )
-
-            st.json(
-                response.intent_mapping.extracted_parameters.model_dump(
-                    exclude_none=True
-                )
-            )
